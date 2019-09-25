@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'sciwork team'
 SITENAME = 'Sciwork'
-SITEURL = ''
+SITEURL = 'https://conf.sciwork.dev/2020'
 SITESUBTITLE = 'code for science'
 
 PATH = 'content'
