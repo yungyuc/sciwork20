@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+import os
+
 AUTHOR = 'sciwork team'
 SITENAME = 'Sciwork'
 SITEURL = os.environ.get('SITEURL', 'https://conf.sciwork.dev/2020')
