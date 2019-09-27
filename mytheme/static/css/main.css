@@ -123,6 +123,10 @@ div.note {
 }
 
 /* Tables */
+section.body table { border: 1px solid black; }
+section.body th { border: 1px solid black; text-align: center; }
+section.body td { border: 1px solid black; text-align: center; }
+
 table {margin: .5em auto 1.5em auto; width: 98%;}
 
 	/* Thead */
