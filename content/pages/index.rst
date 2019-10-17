@@ -7,8 +7,17 @@ Sciwork 2020 - Welcome
 :save_as: index.html
 
 Sciwork is a conference to share and discuss computer code for scientific,
-numerical, and engineering work.  Source code and the science it serves are the
-center of the conference.  The focus areas include but are not limited to:
+numerical, and engineering work.  We will focus on source code, and encourage
+attendees to share open-source work for both scientific researches and
+technical applications.
+
+There are a lot of conferences for computational researches, but few put the
+code in the spotlight.  When trustworthy results are desired, the
+reproducibility of computer programs and the software engineering are
+prerequisites.  Sciwork will be organized for the audience who care the code
+quality as much as the sciences it serves.
+
+The focus areas of sciwork include:
 
 * Array processing
 * Mathematical and numerical libraries
@@ -22,4 +31,4 @@ center of the conference.  The focus areas include but are not limited to:
 * Cloud, networking, and storage
 
 The conference is in the preparation phase.  We plan to hold in Hsinchu, Taiwan
-on Saturday, February 22nd, 2020 (two weeks after the Lantern Festival).
+on Saturday, February 22nd, 2020.
