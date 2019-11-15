@@ -31,34 +31,109 @@ technical program includes:
 Schedule
 ========
 
-.. class:: striped centered responsive-table
+.. raw:: html
 
-+-------------------------+--------------+--------------+----------+----------+
-| time                    | rm 1         | rm 2         | rm 3     | rm 4     |
-+=========================+==============+==============+==========+==========+
-| 08:00 - 08:30 (30 min)  | registration                                      |
-+-------------------------+--------------+--------------+----------+----------+
-| 08:40 - 09:00 (20 min)  | opening                                           |
-+-------------------------+--------------+--------------+----------+----------+
-| 10 min break            |                                                   |
-+-------------------------+--------------+--------------+----------+----------+
-| 09:10 - 09:50 (40 min)  | talk 1-1     | talk 2-1     |          |          |
-+-------------------------+--------------+--------------+----------+----------+
-| 09:50 - 10:20 (30 min)  | refreshment                                       |
-+-------------------------+--------------+--------------+----------+----------+
-| 10:20 - 11:00 (40 min)  | talk 1-2     | talk 2-2     |          |          |
-+-------------------------+--------------+--------------+----------+----------+
-| 10 min break            |                                                   |
-+-------------------------+--------------+--------------+----------+----------+
-| 11:10 - 11:50 (40 min)  | talk 1-3     | talk 2-3     |          |          |
-+-------------------------+--------------+--------------+----------+----------+
-| 11:50 - 13:30           | lunch                                             |
-+-------------------------+--------------+--------------+----------+----------+
-| 13:30 - 16:30 (180 min) | tutorial 1   | tutorial 2   | sprint 1 | sprint 2 |
-+-------------------------+--------------+--------------+----------+----------+
-| 10 min break            |                                                   |
-+-------------------------+--------------+--------------+----------+----------+
-| 16:40 - 17:00 (20 min)  | closing                                           |
-+-------------------------+--------------+--------------+----------+----------+
-| 18:00 -                 | after party                                       |
-+-------------------------+--------------+--------------+----------+----------+
+  <embed>
+  <table border="1" class="striped centered responsive-table">
+
+  <colgroup>
+  <col width="24%" />
+  <col width="19%" />
+  <col width="19%" />
+  <col width="19%" />
+  <col width="19%" />
+  </colgroup>
+
+  <thead valign="bottom">
+  <tr><th class="head">time</th>
+  <th class="head">room 1</th>
+  <th class="head">room 2</th>
+  <th class="head">room 3</th>
+  <th class="head">room 4</th>
+  </tr>
+  </thead>
+
+  <tbody valign="top">
+
+  <tr><td>08:00 - 08:30 (30 min)</td>
+  <td colspan="4">registration</td>
+  </tr>
+
+  <tr><td>08:40 - 09:00 (20 min)</td>
+  <td colspan="4">opening</td>
+  </tr>
+
+  <tr><td>10 min break</td>
+  <td colspan="4">&nbsp;</td>
+  </tr>
+
+  <tr><td>09:10 - 09:50 (40 min)</td>
+  <td>talk 1-1</td>
+  <td>talk 2-1</td>
+  <td colspan="2">n/a</td>
+  </tr>
+
+  <tr><td>09:50 - 10:20 (30 min)</td>
+  <td colspan="4">refreshment</td>
+  </tr>
+
+  <tr><td>10:20 - 11:00 (40 min)</td>
+  <td>talk 1-2</td>
+  <td>talk 2-2</td>
+  <td colspan="2">n/a</td>
+  </tr>
+
+  <tr><td>10 min break</td>
+  <td colspan="4">&nbsp;</td>
+  </tr>
+
+  <tr><td>11:10 - 11:50 (40 min)</td>
+  <td>talk 1-3</td>
+  <td>talk 2-3</td>
+  <td colspan="2">n/a</td>
+  </tr>
+
+  <tr><td>11:50 - 13:30</td>
+  <td colspan="4">lunch</td>
+  </tr>
+
+  <tr><td>13:30 - 16:30 (180 min)</td>
+  <td>
+    tutorial: <br />
+    data engineering (tentative title) <br />
+    by <a href="https://github.com/moskytw">Mosky Liu</a>
+  </td>
+  <td>
+    tutorial: <br />
+    packaging (tentative title) <br />
+    by <a href="https://twitter.com/uranusjr">Tzu-ping Chung</a>
+  </td>
+  <td>
+    sprint: <br />
+    Uni10 <br />
+    (<a href="https://gitlab.com/uni10/uni10">project site</a>) <br />
+    by Ying-jer Kao and Pochung Chen
+  </td>
+  <td>
+    sprint: <br />
+    libst <br />
+    (<a href="https://github.com/yungyuc/turgon">project site</a>) <br />
+    by <a href="https://twitter.com/yungyuc">Yung-Yu Chen</a>
+  </td>
+  </tr>
+
+  <tr><td>10 min break</td>
+  <td colspan="4">&nbsp;</td>
+  </tr>
+
+  <tr><td>16:40 - 17:00 (20 min)</td>
+  <td colspan="4">closing</td>
+  </tr>
+
+  <tr><td>18:00 -</td>
+  <td colspan="4">after party</td>
+  </tr>
+
+  </tbody>
+  </table>
+  </embed>
