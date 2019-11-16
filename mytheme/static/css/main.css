@@ -260,7 +260,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 *****************/
 #content {
 	background: #fff;
-	margin-bottom: 2em;
+	margin-bottom: 3px;
 	overflow: hidden;
 	padding: 20px 20px;
 	width: 760px;
@@ -273,7 +273,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 /*
 	Extras
 *****************/
-#extras {margin: 0 auto 3em auto; overflow: hidden;}
+#extras {margin: 0 auto 3px auto; overflow: hidden;}
 
 #extras ul {list-style: none; margin: 0;}
 #extras li {border-bottom: 1px solid #fff;}
