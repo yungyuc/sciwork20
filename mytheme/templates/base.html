@@ -1,92 +1,111 @@
 <!DOCTYPE html>
 <html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
 <head>
-        <meta charset="utf-8" />
-        <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
-        <link rel="shortcut icon" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/favicon.ico">
-        <link rel="icon" type="image/png" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/favicon-16x16.png" sizes="16x16">
-        <link rel="icon" type="image/png" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/favicon-32x32.png" sizes="32x32">
-        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" />
-        {% if FEED_ALL_ATOM %}
-        <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
-        {% endif %}
-        {% if FEED_ALL_RSS %}
-        <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
-        {% endif %}
-        {% block extra_head %}{% endblock extra_head %}
+  <meta charset="utf-8" />
+  <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!--Icon-->
+  <link rel="shortcut icon" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/favicon.ico">
+  <link rel="icon" type="image/png" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/favicon-32x32.png" sizes="32x32">
+
+  <!--Customize CSS-->
+  <link rel="stylesheet" href="{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" />
+
+  {% if FEED_ALL_ATOM %}
+  <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
+  {% endif %}
+
+  {% if FEED_ALL_RSS %}
+  <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+  {% endif %}
+
+  {% block extra_head %}{% endblock extra_head %}
 </head>
 
-<body id="index" class="home">
-{% include 'github.html' %}
-        <header id="banner" class="body">
-            <h1>
-            <a href="{{ SITEURL }}/">
-                <img style="padding: 0; margin: 0; left: 0; top: 0; right: 0; bottom: 0; border: 0;" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/favicon-32x32.png" />
-                {{ SITENAME }}
-            </a>
-            {% if SITESUBTITLE %}<strong>: {{ SITESUBTITLE }}</strong>{% endif %}
-            </h1>
-                <nav><ul>
-                {% for title, link in MENUITEMS %}
-                    <li><a href="{{ link }}">{{ title }}</a></li>
-                {% endfor %}
-                {% if DISPLAY_PAGES_ON_MENU -%}
-                {% for pg in pages %}
-                    <li{% if pg == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ pg.url }}">{{ pg.title }}</a></li>
-                {% endfor %}
-                {% endif %}
-                {% if DISPLAY_CATEGORIES_ON_MENU -%}
-                {% for cat, null in categories %}
-                    <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-                {% endfor %}
-                {% endif %}
-                </ul></nav>
-        </header><!-- /#banner -->
-        {% block content %}
-        {% endblock %}
-        <section id="extras" class="body">
-        {% if LINKS %}
-                <div class="blogroll">
-                        <h2>{{ LINKS_WIDGET_NAME | default('links') }}</h2>
-                        <ul>
-                        {% for name, link in LINKS %}
-                            <li><a href="{{ link }}">{{ name }}</a></li>
-                        {% endfor %}
-                        </ul>
-                </div><!-- /.blogroll -->
-        {% endif %}
-        {% if SOCIAL or FEED_ALL_ATOM or FEED_ALL_RSS %}
-                <div class="social">
-                        <h2>{{ SOCIAL_WIDGET_NAME | default('social') }}</h2>
-                        <ul>
-                            {% if FEED_ALL_ATOM %}
-                            <li><a href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate">atom feed</a></li>
-                            {% endif %}
-                            {% if FEED_ALL_RSS %}
-                            <li><a href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}" type="application/rss+xml" rel="alternate">rss feed</a></li>
-                            {% endif %}
+<body>
+  <header>
+    <nav id="banner" role="navigation">
+      <div class="nav-wrapper container">
+        <h1 class="brand-logo">
+          <a href="{{ SITEURL }}/">
+            <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/favicon-32x32.png" />
+            {{ SITENAME }}
+          </a>
+          {% if SITESUBTITLE %}
+          <span class="hide-on-med-and-down"><strong>: {{ SITESUBTITLE }}</strong></span>
+          {% endif %}
+        </h1>
 
-                        {% for name, link in SOCIAL %}
-                            <li><a href="{{ link }}">{{ name }}</a></li>
-                        {% endfor %}
-                        </ul>
-                </div><!-- /.social -->
-        {% endif %}
-        </section><!-- /#extras -->
+        {% for typ, cls in [('desktop', 'right hide-on-med-and-down'), ('mobile', 'center sidenav')] %}
+        <ul class="{{ cls }}" {% if typ == 'mobile' %}id="nav-mobile"{% endif %}>
+          {% for title, link in MENUITEMS %}
+          <li><a href="{{ link }}">{{ title }}</a></li>
+          {% endfor %}
 
-        <footer id="contentinfo" class="body">
-                <p style="float: left">
-                        <a href="https://twitter.com/intent/tweet?screen_name=sciwork&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">
-                        Tweet @sciwork</a>.
-                        <a href="mailto: contact@sciwork.dev">Email us</a>.
-                </p>
-                <p style="float: right">
-                        Website is powered by <a href="http://getpelican.com/">Pelican</a> and <a href="http://python.org">Python</a>.
-                        Theme by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>.
-                </p>
-        </footer><!-- /#contentinfo -->
+          {% if DISPLAY_PAGES_ON_MENU -%}
+          {% for pg in pages %}
+          <li{% if pg == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ pg.url }}">{{ pg.title }}</a></li>
+          {% endfor %}
+          {% endif %}
 
-{% include 'analytics.html' %}
-{% include 'disqus_script.html' %}
+          {% if DISPLAY_CATEGORIES_ON_MENU -%}
+          {% for cat, null in categories %}
+          <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+          {% endfor %}
+          {% endif %}
+        </ul>
+        {% endfor %}
+
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="section no-pad-bot" id="content">
+      <div class="container">{% block content %}{% endblock %}</div>
+    </div>
+  </main>
+
+
+  <footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        <a href="https://twitter.com/intent/tweet?screen_name=sciwork&ref_src=twsrc%5Etfw" data-show-count="false">Tweet @sciwork</a>.
+        <a href="mailto: contact@sciwork.dev">Email us</a>.
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Website is powered by
+        <a href="https://getpelican.com">Pelican</a>
+        and
+        <a href="https://python.org">Python</a>.
+        Theme by
+        <a href="https://materializecss.com">Materialize</a>.
+      </div>
+    </div>
+  </footer><!-- /#contentinfo -->
+
+  <!--JavaScript at end of body for optimized loading-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script type="text/javascript">
+    (function($){
+      $(function(){
+
+        $('.sidenav').sidenav();
+
+      }); // end of document ready
+    })(jQuery); // end of jQuery name space
+  </script>
 </body>
 </html>
