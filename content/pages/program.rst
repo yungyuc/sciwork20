@@ -99,25 +99,25 @@ Schedule
 
   <tr><td>13:30 - 16:30 (180 min)</td>
   <td>
-    tutorial: <br />
-    data engineering (tentative title) <br />
+    tutorial:
+    Hypothesis Testing with Python
     by <a href="https://github.com/moskytw">Mosky Liu</a>
   </td>
   <td>
-    tutorial: <br />
-    packaging (tentative title) <br />
+    tutorial:
+    packaging (tentative title)
     by <a href="https://twitter.com/uranusjr">Tzu-ping Chung</a>
   </td>
   <td>
-    sprint: <br />
-    Uni10 <br />
-    (<a href="https://gitlab.com/uni10/uni10">project site</a>) <br />
+    sprint:
+    Uni10
+    (<a href="https://gitlab.com/uni10/uni10">project site</a>)
     by Ying-jer Kao and Pochung Chen
   </td>
   <td>
-    sprint: <br />
-    libst <br />
-    (<a href="https://github.com/yungyuc/turgon">project site</a>) <br />
+    sprint:
+    libst
+    (<a href="https://github.com/yungyuc/turgon">project site</a>)
     by <a href="https://twitter.com/yungyuc">Yung-Yu Chen</a>
   </td>
   </tr>
