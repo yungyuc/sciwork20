@@ -8,6 +8,11 @@ AUTHOR = 'sciwork team'
 SITENAME = 'Sciwork'
 SITEURL = os.environ.get('SITEURL', 'https://conf.sciwork.dev/2020')
 SITESUBTITLE = 'code for science'
+SITEDESC = (
+    'Sciwork is a conference to share and discuss computer code for scientific, '
+    'numerical, and engineering work.  We will focus on source code, and encourage '
+    'attendees to share open-source work for both scientific researches and '
+    'technical applications.')
 
 PATH = 'content'
 

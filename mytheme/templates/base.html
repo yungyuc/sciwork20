@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
 
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import FontAwesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
   <!--Import materialize.css-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <!--Let browser know website is optimized for mobile-->
@@ -17,54 +17,39 @@
   <link rel="icon" type="image/png" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/favicon-32x32.png" sizes="32x32">
 
   <!--Customize CSS-->
-  <link rel="stylesheet" href="{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" />
-
-  {% if FEED_ALL_ATOM %}
-  <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
-  {% endif %}
-
-  {% if FEED_ALL_RSS %}
-  <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
-  {% endif %}
+  <link rel="stylesheet" href="{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}"/>
 
   {% block extra_head %}{% endblock extra_head %}
 </head>
 
 <body>
   <header>
-    <nav id="banner" role="navigation">
-      <div class="nav-wrapper container">
-        <h1 class="brand-logo">
-          <a href="{{ SITEURL }}/">
-            <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/favicon-32x32.png" />
-            {{ SITENAME }}
-          </a>
-          {% if SITESUBTITLE %}
-          <span class="hide-on-med-and-down"><strong>: {{ SITESUBTITLE }}</strong></span>
-          {% endif %}
-        </h1>
+    <nav id="banner" role="navigation" class="z-depth-0 white">
+      <div class="nav-wrapper">
+        <a href="{{ SITEURL }}/" id="nav-logo" class="brand-logo hide-on-med-and-down">
+          <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/favicon-32x32.png"/>
+          {{ SITENAME }}
+        </a>
 
-        {% for typ, cls in [('desktop', 'right hide-on-med-and-down'), ('mobile', 'center sidenav')] %}
-        <ul class="{{ cls }}" {% if typ == 'mobile' %}id="nav-mobile"{% endif %}>
+        {% for typ, cls in [('desktop', 'right hide-on-med-and-down'), ('mobile', 'sidenav')] %}
+        <ul class="{{ cls }}" id="nav-{{ typ }}">
+          {% if typ == 'mobile' %}
+          <li id="sidenav-li">
+            <a href="{{ SITEURL }}/" id="sidenav-logo">
+              <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/favicon-32x32.png"/>
+              {{ SITENAME }}
+            </a>
+          </li>
+          <li><div class="divider"></div></li>
+          {% endif %}
+
           {% for title, link in MENUITEMS %}
           <li><a href="{{ link }}">{{ title }}</a></li>
           {% endfor %}
-
-          {% if DISPLAY_PAGES_ON_MENU -%}
-          {% for pg in pages %}
-          <li{% if pg == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ pg.url }}">{{ pg.title }}</a></li>
-          {% endfor %}
-          {% endif %}
-
-          {% if DISPLAY_CATEGORIES_ON_MENU -%}
-          {% for cat, null in categories %}
-          <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-          {% endfor %}
-          {% endif %}
         </ul>
         {% endfor %}
 
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger grey-text text-darken-3"><i class="fas fa-bars"></i></a>
       </div>
     </nav>
   </header>
@@ -75,12 +60,12 @@
     </div>
   </main>
 
-
-  <footer class="page-footer black">
+  <footer class="page-footer grey darken-2">
     <div class="container">
-      <div class="row">
-        <a href="https://twitter.com/intent/tweet?screen_name=sciwork&ref_src=twsrc%5Etfw" data-show-count="false">Tweet @sciwork</a>.
-        <a href="mailto: contact@sciwork.dev">Email us</a>.
+      <div class="row" id="contact">
+        <h4>Contact us</h4>
+        <a href="https://twitter.com/intent/tweet?screen_name=sciwork&ref_src=twsrc%5Etfw" data-show-count="false"><i class="fab fa-twitter-square"></i></a>
+        <a href="mailto: contact@sciwork.dev"><i class="fas fa-envelope-square"></i></a>
       </div>
     </div>
     <div class="footer-copyright">

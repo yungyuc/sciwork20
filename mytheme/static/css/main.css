@@ -16,36 +16,55 @@
 /***** Global *****/
 /* Body */
 body {
-    color: #000305;
+    color: #424242;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
 
+a { color: #c62828; }
+
 main { flex: 1 0 auto; }
 
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 0.4em;
-  margin-bottom: 0.4em;
+h1, h2, h3, h4, h5, h6, .card-title {
+  margin-top: 0em;
+  margin-bottom: 0.5em;
   font-family: 'Yanone Kaffeesatz', arial, serif;
 }
 
-a { color: #C74350; }
+#nav-logo, #sidenav-logo {
+  color: #424242;
+  height: 64px;
+  line-height: 64px;
+  font-size: 3rem;
+  padding: 0 44px 0 24px;
+  font-family: 'Yanone Kaffeesatz', arial, serif;
+  font-size: 3rem;
+}
+#nav-logo:hover, #sidenav-logo:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+nav ul a {
+  color: #424242;
+}
+nav ul a:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #c62828;
+}
 
-#banner { background: #F5F4EF; }
-#banner a, span { color: #000305; }
-#banner ul li:hover:not(.logo) { background-color: #C74350; }
-#banner ul li:hover a { color: #FFFFFF; }
-#banner h1 a:hover { color: #C74350; }
-#banner h1 strong { font-size: 0.5em; font-weight: normal; }
-
-#nav-mobile { background: #F5F4EF; }
-#nav-mobile img { margin-top: 1em; }
-#nav-mobile p { color: #000305; font-family: 'Yanone Kaffeesatz', arial, serif; }
+#contact a {
+  color: white;
+  font-size: 40px;
+  margin: 0em 0.5em 0em 0em;
+}
+.footer-copyright a {
+  color: white;
+  text-decoration: underline;
+}
 
 #content p {
   margin-top: 1em;
   margin-bottom: 1em;
 }
-#content ul { margin: 0em 0 0 1.5em; }
+#content ul { margin: 1em 0em 1em 1.5em; }
 #content li { list-style: outside disc !important; }
