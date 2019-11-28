@@ -14,8 +14,8 @@ technical applications.
 There are a lot of conferences for computational researches, but few put the
 code in the spotlight.  When trustworthy results are desired, the
 reproducibility of computer programs and the software engineering are
-prerequisites.  Sciwork will be organized for the audience who care about the
-code quality as much as the sciences it serves.
+prerequisites.  Sciwork will be organized for those who care about the code
+quality as much as the sciences it serves.
 
 The focus areas of sciwork include:
 
