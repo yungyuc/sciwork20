@@ -7,7 +7,18 @@ Program
 :save_as: program.html
 
 Call for proposal is at (papercall.io), follow the link:
-https://www.papercall.io/sciwork20.
+https://www.papercall.io/sciwork20.  Areas of topics:
+
+* Array processing
+* Mathematical and numerical libraries
+* Geometry and visualization
+* Physics, chemistry, and their applications
+* Other science and engineering
+* C++, Python, and other programming languages
+* Compiler, development environment, and software engineering
+* High-performance computing, parallel computing, distributed computing, and
+  concurrent computing
+* Cloud, networking, and storage
 
 The program will be code-centric while balancing with the necessary verbal
 discussions for understanding the scientific and mathematical background.  The
