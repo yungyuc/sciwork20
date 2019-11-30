@@ -105,7 +105,7 @@ Schedule
   </td>
   <td>
     tutorial:
-    packaging (tentative title)
+    Packaging: Share your code for pip and Conda
     by <a href="https://twitter.com/uranusjr">Tzu-ping Chung</a>
   </td>
   <td>
