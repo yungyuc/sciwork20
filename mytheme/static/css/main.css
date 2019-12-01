@@ -44,6 +44,7 @@ h1, h2, h3, h4, h5, h6, .card-title {
 #nav-logo:hover, #sidenav-logo:hover {
   background-color: rgba(0, 0, 0, 0);
 }
+#nav-logo img, #sidenav-logo img { max-height: 50%; }
 nav ul a {
   color: #424242;
 }
