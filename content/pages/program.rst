@@ -33,7 +33,6 @@ Schedule
 
 .. raw:: html
 
-   <embed>
    <div class="row evt-valign-wrapper red lighten-5">
      <div class="col s12 m2"><span class="evt-time">08:00 - 08:30</span></div>
      <div class="col s12 m10"><span class="evt-title">Registration</span></div>
@@ -130,4 +129,3 @@ Schedule
      <div class="col s12 m2"><span class="evt-time">18:00 -</span></div>
      <div class="col s12 m10"><span class="evt-title">After party</span></div>
    </div>
-   </embed>
