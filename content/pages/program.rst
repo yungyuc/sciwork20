@@ -33,107 +33,99 @@ Schedule
 
 .. raw:: html
 
-  <embed>
-  <table border="1" class="striped centered responsive-table">
-
-  <colgroup>
-  <col width="24%" />
-  <col width="19%" />
-  <col width="19%" />
-  <col width="19%" />
-  <col width="19%" />
-  </colgroup>
-
-  <thead valign="bottom">
-  <tr><th class="head">time</th>
-  <th class="head">room 1</th>
-  <th class="head">room 2</th>
-  <th class="head">room 3</th>
-  <th class="head">room 4</th>
-  </tr>
-  </thead>
-
-  <tbody valign="top">
-
-  <tr><td>08:00 - 08:30 (30 min)</td>
-  <td colspan="4">registration</td>
-  </tr>
-
-  <tr><td>08:40 - 09:00 (20 min)</td>
-  <td colspan="4">opening</td>
-  </tr>
-
-  <tr><td>10 min break</td>
-  <td colspan="4">&nbsp;</td>
-  </tr>
-
-  <tr><td>09:10 - 09:50 (40 min)</td>
-  <td>talk 1-1</td>
-  <td>talk 2-1</td>
-  <td colspan="2">n/a</td>
-  </tr>
-
-  <tr><td>09:50 - 10:20 (30 min)</td>
-  <td colspan="4">refreshment</td>
-  </tr>
-
-  <tr><td>10:20 - 11:00 (40 min)</td>
-  <td>talk 1-2</td>
-  <td>talk 2-2</td>
-  <td colspan="2">n/a</td>
-  </tr>
-
-  <tr><td>10 min break</td>
-  <td colspan="4">&nbsp;</td>
-  </tr>
-
-  <tr><td>11:10 - 11:50 (40 min)</td>
-  <td>talk 1-3</td>
-  <td>talk 2-3</td>
-  <td colspan="2">n/a</td>
-  </tr>
-
-  <tr><td>11:50 - 13:30</td>
-  <td colspan="4">lunch</td>
-  </tr>
-
-  <tr><td>13:30 - 16:30 (180 min)</td>
-  <td>
-    tutorial:
-    Hypothesis Testing with Python
-    by <a href="https://github.com/moskytw">Mosky Liu</a>
-  </td>
-  <td>
-    tutorial:
-    Packaging: Share your code for pip and Conda
-    by <a href="https://twitter.com/uranusjr">Tzu-ping Chung</a>
-  </td>
-  <td>
-    sprint:
-    Uni10
-    (<a href="https://gitlab.com/uni10/uni10">project site</a>)
-    by Ying-jer Kao and Pochung Chen
-  </td>
-  <td>
-    sprint:
-    libst
-    (<a href="https://github.com/yungyuc/turgon">project site</a>)
-    by <a href="https://twitter.com/yungyuc">Yung-Yu Chen</a>
-  </td>
-  </tr>
-
-  <tr><td>10 min break</td>
-  <td colspan="4">&nbsp;</td>
-  </tr>
-
-  <tr><td>16:40 - 17:00 (20 min)</td>
-  <td colspan="4">closing</td>
-  </tr>
-
-  <tr><td>18:00 -</td>
-  <td colspan="4">after party</td>
-  </tr>
-
-  </tbody>
-  </table>
-  </embed>
+   <div class="row evt-valign-wrapper red lighten-5">
+     <div class="col s12 m2"><span class="evt-time">08:00 - 08:30</span></div>
+     <div class="col s12 m10"><span class="evt-title">Registration</span></div>
+   </div>
+   <div class="row evt-valign-wrapper">
+     <div class="col s12 m2"><span class="evt-time">08:40 - 09:00</span></div>
+     <div class="col s12 m10"><span class="evt-title">Opening</span></div>
+   </div>
+   <div class="row evt-valign-wrapper grey lighten-4">
+     <div class="col s12 m2"><span class="evt-time">09:00 - 09:10</span></div>
+     <div class="col s12 m10"><span class="evt-title">Break</span></div>
+   </div>
+   <div class="row">
+     <div class="col s12 m2"><span class="evt-time">09:10 - 09:50</span></div>
+     <div class="col s12 m5 card z-depth-0">
+       <span class="label rm1"></span>
+       <div class="evt-title">Talk 1-1</div>
+     </div>
+     <div class="col s12 m5 card z-depth-0">
+       <span class="label rm2"></span>
+       <div class="evt-title">Talk 2-1</div>
+     </div>
+   </div>
+   <div class="row evt-valign-wrapper red lighten-5">
+     <div class="col s12 m2"><span class="evt-time">09:50 - 10:20</span></div>
+     <div class="col s12 m10"><span class="evt-title">Refreshment</span></div>
+   </div>
+   <div class="row">
+     <div class="col s12 m2"><span class="evt-time">10:20 - 11:00</span></div>
+     <div class="col s12 m5 card z-depth-0">
+       <span class="label rm1"></span>
+       <div class="evt-title">Talk 1-2</div>
+     </div>
+     <div class="col s12 m5 card z-depth-0">
+       <span class="label rm2"></span>
+       <div class="evt-title">Talk 2-2</div>
+     </div>
+   </div>
+   <div class="row evt-valign-wrapper grey lighten-4">
+     <div class="col s12 m2"><span class="evt-time">11:00 - 11:10</span></div>
+     <div class="col s12 m10"><span class="evt-title">Break</span></div>
+   </div>
+   <div class="row">
+     <div class="col s12 m2"><span class="evt-time">11:10 - 11:50</span></div>
+     <div class="col s12 m5 card z-depth-0">
+       <span class="label rm1"></span>
+       <div class="evt-title">Talk 1-3</div>
+     </div>
+     <div class="col s12 m5 card z-depth-0">
+       <span class="label rm2"></span>
+       <div class="evt-title">Talk 2-3</div>
+     </div>
+   </div>
+   <div class="row evt-valign-wrapper red lighten-5">
+     <div class="col s12 m2"><span class="evt-time">11:50 - 13:30</span></div>
+     <div class="col s12 m10"><span class="evt-title">Lunch</span></div>
+   </div>
+   <div class="row">
+     <div class="col s12 m2"><span class="evt-time">13:30 - 16:30</span></div>
+     <div class="col s12 m5 card z-depth-0">
+       <span class="label rm1"></span>
+       <span class="label tutorial"></span>
+       <div class="evt-title">Hypothesis Testing with Python</div>
+       by <a href="https://github.com/moskytw">Mosky Liu</a>
+     </div>
+     <div class="col s12 m5 card z-depth-0">
+       <span class="label rm2"></span>
+       <span class="label tutorial"></span>
+       <div class="evt-title">Packaging: Share your code for pip and Conda</div>
+       by <a href="https://twitter.com/uranusjr">Tzu-ping Chung</a>
+     </div>
+     <div class="col s12 m5 offset-m2 card z-depth-0">
+       <span class="label rm3"></span>
+       <span class="label sprint"></span>
+       <div class="evt-title">Uni10 (<a href="https://gitlab.com/uni10/uni10">Project Site</a>)</div>
+       by Ying-jer Kao and Pochung Chen
+     </div>
+     <div class="col s12 m5 card z-depth-0">
+       <span class="label rm4"></span>
+       <span class="label sprint"></span>
+       <div class="evt-title">libst (<a href="https://github.com/yungyuc/turgon">Project Site</a>)</div>
+       by <a href="https://twitter.com/yungyuc">Yung-Yu Chen</a>
+     </div>
+   </div>
+   <div class="row evt-valign-wrapper grey lighten-4">
+     <div class="col s12 m2"><span class="evt-time">16:30 - 16:40</span></div>
+     <div class="col s12 m10"><span class="evt-title">Break</span></div>
+   </div>
+   <div class="row evt-valign-wrapper">
+     <div class="col s12 m2"><span class="evt-time">16:40 - 17:00</span></div>
+     <div class="col s12 m10"><span class="evt-title">Closeing</span></div>
+   </div>
+   <div class="row evt-valign-wrapper red lighten-5">
+     <div class="col s12 m2"><span class="evt-time">18:00 -</span></div>
+     <div class="col s12 m10"><span class="evt-title">After party</span></div>
+   </div>
