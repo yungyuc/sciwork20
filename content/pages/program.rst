@@ -107,14 +107,14 @@ Schedule
      <div class="col s12 m5 offset-m2 card z-depth-0">
        <span class="label rm3"></span>
        <span class="label sprint"></span>
-       <div class="evt-title">Uni10 (<a href="https://gitlab.com/uni10/uni10">Project Site</a>)</div>
+       <div class="evt-title"><a href="sprint-uni10.html">uni10</a></div>
        by Ying-jer Kao and Pochung Chen
      </div>
      <div class="col s12 m5 card z-depth-0">
        <span class="label rm4"></span>
        <span class="label sprint"></span>
-       <div class="evt-title">libst (<a href="https://github.com/yungyuc/turgon">Project Site</a>)</div>
-       by <a href="https://twitter.com/yungyuc">Yung-Yu Chen</a>
+       <div class="evt-title"><a href="sprint-libst.html">libst</a></div>
+       by Yung-Yu Chen
      </div>
    </div>
    <div class="row evt-valign-wrapper grey lighten-4">
