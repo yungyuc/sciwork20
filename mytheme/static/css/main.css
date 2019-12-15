@@ -36,22 +36,32 @@ h1, h2, h3, h4, h5, h6 {
   color: #424242;
   height: 64px;
   line-height: 64px;
-  font-size: 3rem;
   padding: 0 44px 0 24px;
   font-family: 'Yanone Kaffeesatz', arial, serif;
-  font-size: 3rem;
+  font-size: 3.56em;
 }
 #nav-logo:hover, #sidenav-logo:hover {
   background-color: rgba(0, 0, 0, 0);
-}
-#nav-logo img, #sidenav-logo img { max-height: 50%; }
-nav ul a {
   color: #424242;
 }
-nav ul a:hover {
+#nav-logo img, #sidenav-logo img { max-height: 50%; }
+#nav-desktop > li a { color: #424242; font-weight: 500; }
+#nav-mobile > li a { color: #424242; font-weight: normal; }
+#nav-desktop > li a:hover, #nav-mobile > li:not(:first-child) a:hover {
   background-color: rgba(0, 0, 0, 0);
   color: #c62828;
 }
+#nav-desktop > li.active { background-color: rgba(0, 0, 0, 0); }
+#nav-desktop > li.active a, #nav-mobile > li.active a { color: #c62828; font-weight: 500; }
+#nav-desktop > li.active a:after {
+  content: '';
+  height: 3px;
+  background: #c62828;
+  border-radius: 3px 3px 0 0;
+  margin-top: -1em;
+  display:block;
+}
+#nav-mobile > li.active { background-color: #ffebee; }
 
 #contact a {
   color: white;
@@ -67,8 +77,8 @@ nav ul a:hover {
   margin-top: 1em;
   margin-bottom: 1em;
 }
-#content ul { margin: 1em 0em 1em 1.5em; }
-#content li { list-style: outside disc !important; }
+ul.simple { margin: 1em 0em 1em 1.5em; }
+ul.simple li { list-style: outside disc;}
 
 @media (min-width: 600px) {
   .evt-valign-wrapper {
@@ -77,26 +87,30 @@ nav ul a:hover {
     -webkit-align-items: center;
     align-items: center;
   }
+  .evt-time-margin {
+    margin-top: 0.5rem;
+  }
 }
 .evt-time {
   font-family: 'Yanone Kaffeesatz', arial, serif;
-  font-size: 1.1rem;
+  font-size: 1.1em;
 }
 @media (max-width: 600px) {
   .evt-time {
     border-left: 2px solid #616161;
     padding-left: 8px;
+    border-radius: 2px 0 0 2px;
   }
 }
 .evt-title {
   font-family: 'Yanone Kaffeesatz', arial, serif;
-  font-size: 1.64rem;
+  font-size: 1.4em;
   margin-top: -0.2em;
   margin-bottom: 0em;
 }
 .label {
   border-radius: 2px;
-  font-size: 12px;
+  font-size: 0.75em;
   color: #ffffff;
   line-height: 16px;
   padding: 0 2px;

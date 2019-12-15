@@ -46,7 +46,7 @@ Schedule
      <div class="col s12 m10"><span class="evt-title">Break</span></div>
    </div>
    <div class="row">
-     <div class="col s12 m2"><span class="evt-time">09:10 - 09:50</span></div>
+     <div class="col s12 m2 evt-time-margin"><span class="evt-time">09:10 - 09:50</span></div>
      <div class="col s12 m5 card z-depth-0">
        <span class="label rm1"></span>
        <div class="evt-title">Talk 1-1</div>
@@ -61,7 +61,7 @@ Schedule
      <div class="col s12 m10"><span class="evt-title">Refreshment</span></div>
    </div>
    <div class="row">
-     <div class="col s12 m2"><span class="evt-time">10:20 - 11:00</span></div>
+     <div class="col s12 m2 evt-time-margin"><span class="evt-time">10:20 - 11:00</span></div>
      <div class="col s12 m5 card z-depth-0">
        <span class="label rm1"></span>
        <div class="evt-title">Talk 1-2</div>
@@ -76,7 +76,7 @@ Schedule
      <div class="col s12 m10"><span class="evt-title">Break</span></div>
    </div>
    <div class="row">
-     <div class="col s12 m2"><span class="evt-time">11:10 - 11:50</span></div>
+     <div class="col s12 m2 evt-time-margin"><span class="evt-time">11:10 - 11:50</span></div>
      <div class="col s12 m5 card z-depth-0">
        <span class="label rm1"></span>
        <div class="evt-title">Talk 1-3</div>
@@ -91,7 +91,7 @@ Schedule
      <div class="col s12 m10"><span class="evt-title">Lunch</span></div>
    </div>
    <div class="row">
-     <div class="col s12 m2"><span class="evt-time">13:30 - 16:30</span></div>
+     <div class="col s12 m2 evt-time-margin"><span class="evt-time">13:30 - 16:30</span></div>
      <div class="col s12 m5 card z-depth-0">
        <span class="label rm1"></span>
        <span class="label tutorial"></span>
