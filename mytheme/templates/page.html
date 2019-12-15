@@ -5,20 +5,20 @@
 {% block extra_head %}
 <!-- Primary Meta Tags -->
 <meta name="title" content="{{ page.title }}">
-<meta name="description" content="{{ page.description | default(SITEDESC) }}">
+<meta name="description" content="{{ page.summary|striptags }}">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ SITEURL }}">
 <meta property="og:title" content="{{ page.title }}">
-<meta property="og:description" content="{{ page.description | default(SITEDESC) }}">
+<meta property="og:description" content="{{ page.summary|striptags }}">
 <meta property="og:image" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/android-chrome-512x512.png">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="{{ SITEURL }}">
 <meta property="twitter:title" content="{{ page.title }}">
-<meta property="twitter:description" content="{{ page.description | default(SITEDESC) }}">
+<meta property="twitter:description" content="{{ page.summary|striptags }}">
 <meta property="twitter:image" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/android-chrome-512x512.png">
 
 {% import 'translations.html' as translations with context %}
