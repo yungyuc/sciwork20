@@ -128,3 +128,15 @@ ul.simple li { list-style: outside disc;}
 .rm4:before { content: "RM4"; }
 .tutorial:before { content: "Tutorial"; }
 .sprint:before { content: "Sprint"; }
+
+.article-title {
+  font-size: 2.92em;
+  font-family: 'Yanone Kaffeesatz', arial, serif;
+}
+.post-info { color: #757575; }
+.card-content h1 { font-size: 2.92em; }
+.card-content h2 { font-size: 2.28em; }
+.card-content h3 { font-size: 1.64em; }
+.card-content h4 { font-size: 1.15em; }
+.card-content h5, h6 { font-size: 1em; }
+.dropdown-content li>a, .dropdown-content li>span { color: #424242; }
