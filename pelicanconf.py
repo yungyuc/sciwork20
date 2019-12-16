@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 import os
 
-AUTHOR = 'sciwork team'
+AUTHOR = 'Sciwork Team'
 SITENAME = 'Sciwork'
 SITEURL = os.environ.get('SITEURL', 'https://conf.sciwork.dev/2020')
 SITESUBTITLE = 'code for science'
@@ -27,10 +27,21 @@ DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = (
     ('Welcome', 'index.html'),
+    ('Blog', 'blog.html'),
     ('Program', 'program.html'),
     ('Sponsors', 'sponsors.html'),
     ('Venue', 'venue.html'),
 )
+
+
+CATEGORY_SAVE_AS = ''
+# If pagination is active, subsequent pages will reside in output/blog`n`.html.
+INDEX_SAVE_AS = 'blog.html'
+DEFAULT_PAGINATION = 10
+#PAGINATED_DIRECT_TEMPLATES = ('categories', 'archives')
+ARTICLE_PATHS = ['articles']
+ARTICLE_SAVE_AS = 'articles/{date:%Y}/{slug}.html'
+ARTICLE_URL = 'articles/{date:%Y}/{slug}.html'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -51,9 +62,6 @@ LINKS = (
 SOCIAL = (
 #    ('twitter', 'https://twitter.com/sciwork/'),
 )
-
-DEFAULT_PAGINATION = 10
-#PAGINATED_DIRECT_TEMPLATES = ('categories', 'archives')
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

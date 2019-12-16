@@ -17,7 +17,7 @@
   <link rel="icon" type="image/png" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/favicon-32x32.png" sizes="32x32">
 
   <!--Customize CSS-->
-  <link rel="stylesheet" href="{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}"/>
+  <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}"/>
 
   {% block extra_head %}{% endblock extra_head %}
 </head>
@@ -27,24 +27,26 @@
     <nav id="banner" role="navigation" class="z-depth-0 white">
       <div class="nav-wrapper">
         <a href="{{ SITEURL }}/" id="nav-logo" class="brand-logo hide-on-med-and-down">
-          <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/android-chrome-192x192.png"/>
+          <img src="/{{ THEME_STATIC_DIR }}/images/icons/android-chrome-192x192.png"/>
           {{ SITENAME }}
         </a>
 
         {% for typ, cls in [('desktop', 'right hide-on-med-and-down'), ('mobile', 'sidenav')] %}
         <ul class="{{ cls }}" id="nav-{{ typ }}">
           {% if typ == 'mobile' %}
-          <li id="sidenav-li">
+          <li>
             <a href="{{ SITEURL }}/" id="sidenav-logo">
-              <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/android-chrome-192x192.png"/>
+              <img src="/{{ THEME_STATIC_DIR }}/images/icons/android-chrome-192x192.png"/>
               {{ SITENAME }}
             </a>
           </li>
-          <li><div class="divider"></div></li>
+          <li><div class="divider"> </div></li>
           {% endif %}
 
           {% for title, link in MENUITEMS %}
-          <li><a href="{{ link }}">{{ title }}</a></li>
+          <li {% if output_file == link or title|upper == page_name|upper %}class="active"{% endif %}>
+            <a href="/{{ link }}">{{ title }}</a>
+          </li>
           {% endfor %}
         </ul>
         {% endfor %}
@@ -83,6 +85,8 @@
   <!--JavaScript at end of body for optimized loading-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!--Fix select on iOS 13-->
+  <script type="text/javascript" src="/{{ THEME_STATIC_DIR }}/js/select.js"></script>
   <script type="text/javascript">
     (function($){
       $(function(){
@@ -91,6 +95,9 @@
 
       }); // end of document ready
     })(jQuery); // end of jQuery name space
+    $(document).ready(function(){
+      $('select').formSelect();
+    });
   </script>
 </body>
 </html>
