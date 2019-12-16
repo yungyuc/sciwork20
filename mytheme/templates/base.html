@@ -17,7 +17,7 @@
   <link rel="icon" type="image/png" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/favicon-32x32.png" sizes="32x32">
 
   <!--Customize CSS-->
-  <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}"/>
+  <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}"/>
 
   {% block extra_head %}{% endblock extra_head %}
 </head>
@@ -27,7 +27,7 @@
     <nav id="banner" role="navigation" class="z-depth-0 white">
       <div class="nav-wrapper">
         <a href="{{ SITEURL }}/" id="nav-logo" class="brand-logo hide-on-med-and-down">
-          <img src="/{{ THEME_STATIC_DIR }}/images/icons/android-chrome-192x192.png"/>
+          <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/android-chrome-192x192.png"/>
           {{ SITENAME }}
         </a>
 
@@ -36,7 +36,7 @@
           {% if typ == 'mobile' %}
           <li>
             <a href="{{ SITEURL }}/" id="sidenav-logo">
-              <img src="/{{ THEME_STATIC_DIR }}/images/icons/android-chrome-192x192.png"/>
+              <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/android-chrome-192x192.png"/>
               {{ SITENAME }}
             </a>
           </li>
@@ -86,7 +86,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <!--Fix select on iOS 13-->
-  <script type="text/javascript" src="/{{ THEME_STATIC_DIR }}/js/select.js"></script>
+  <script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/select.js"></script>
   <script type="text/javascript">
     (function($){
       $(function(){
