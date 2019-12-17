@@ -6,27 +6,42 @@ Program
 :url:
 :save_as: program.html
 
-Call for proposal is at (papercall.io), follow the link:
-https://www.papercall.io/sciwork20.  Areas of topics:
+Program
+=======
 
-* Array processing
-* Mathematical and numerical libraries
-* Geometry and visualization
-* Physics, chemistry, and their applications
-* Other science and engineering
-* C++, Python, and other programming languages
-* Compiler, development environment, and software engineering
-* High-performance computing, parallel computing, distributed computing, and
-  concurrent computing
-* Cloud, networking, and storage
+The technical program consists of 6 talks, 2 sprints, and 2 hands-on tutorials.
 
-The program will be code-centric while balancing with the necessary verbal
-discussions for understanding the scientific and mathematical background.  The
-technical program includes:
+Technical talks
+---------------
 
-* Six talk.  Each uses forty minutes.
-* Two sprints.  Each uses three hours in the afternoon.
-* Two hands-on tutorials.  Each uses three hours in the afternoon.
+Six technical talks will be scheduled in the morning.  Each talk uses forty
+minutes.
+
+The call-for-proposal due is extended to 19th December, 2019.  Please follow
+the link https://www.papercall.io/sciwork20 to submit your proposal.  The talks
+are expected to be code-centric with the necessary discussions for the
+scientific and mathematical background.
+
+Sprints
+-------
+
+Two sprint sessions are scheduled in the afternoon:
+
+* `Uni10 <sprint-uni10.html>`__, a numerical library designed for tensor networks.
+* `libst <sprint-libst.html>`__, a code to solve conservation laws by using the
+  space-time conservation element and solution element (CESE) method.
+
+Each sprint session uses three hours.
+
+Tutorials
+---------
+
+Two hands-on tutorials are scheduled in the afternoon:
+
+* Hypothesis Testing with Python
+* Packaging: Share your code for pip and Conda
+
+Each tutorial uses three hours.
 
 Schedule
 ========
