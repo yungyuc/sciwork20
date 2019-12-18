@@ -49,7 +49,9 @@ multi-node/multi-gpu programming paradigm will also be explored.
 Objective
 ---------
 
-TBD
+* Make test cases for inserting numpy array to C++ array.
+* Make test cases for matrix transpose/multiplication in GPU.
+* Resolve other tickets.
 
 Requirements
 ------------
