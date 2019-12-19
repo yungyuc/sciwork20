@@ -55,4 +55,4 @@ Bugfix
 ------
 
 If you want to fix bugs or typographical errors, create a branch named like
-`bugfux/your-fix`.
+`bugfix/your-fix`.
