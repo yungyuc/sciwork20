@@ -4,7 +4,7 @@ Sprint - Uni10
 
 :date: 2019-12-17 12:00
 :url:
-:save_as: sprint-uni10.html
+:save_as: sprint/uni10.html
 
 .. _Uni10: https://gitlab.com/uni10/uni10
 

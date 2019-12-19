@@ -4,7 +4,7 @@ Sprint - libst
 
 :date: 2019-12-17 12:00
 :url:
-:save_as: sprint-libst.html
+:save_as: sprint/libst.html
 
 .. _libst: https://github.com/yungyuc/turgon
 

@@ -27,8 +27,8 @@ Sprints
 
 Two sprint sessions are scheduled in the afternoon:
 
-* `Uni10 <sprint-uni10.html>`__, a numerical library designed for tensor networks.
-* `libst <sprint-libst.html>`__, a code to solve conservation laws by using the
+* `Uni10 <sprint/uni10.html>`__, a numerical library designed for tensor networks.
+* `libst <sprint/libst.html>`__, a code to solve conservation laws by using the
   space-time conservation element and solution element (CESE) method.
 
 Each sprint session uses three hours.
@@ -122,13 +122,13 @@ Schedule
      <div class="col s12 m5 offset-m2 card z-depth-0">
        <span class="label rm3"></span>
        <span class="label sprint"></span>
-       <div class="evt-title"><a href="sprint-uni10.html">uni10</a></div>
+       <div class="evt-title"><a href="sprint/uni10.html">uni10</a></div>
        by Ying-jer Kao and Pochung Chen
      </div>
      <div class="col s12 m5 card z-depth-0">
        <span class="label rm4"></span>
        <span class="label sprint"></span>
-       <div class="evt-title"><a href="sprint-libst.html">libst</a></div>
+       <div class="evt-title"><a href="sprint/libst.html">libst</a></div>
        by Yung-Yu Chen
      </div>
    </div>
