@@ -4,7 +4,7 @@ Tutorial - Hypothesis Testing in Python
 
 :date: 2019-12-18 12:00
 :url:
-:save_as: tutorial-hypothesis-testing.html
+:save_as: tutorial/hypothesis-testing.html
 
 Tutorial - Hypothesis Testing in Python
 =======================================

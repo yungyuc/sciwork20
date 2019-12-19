@@ -4,7 +4,7 @@ Tutorial - Packaging: Share your code for pip and Conda
 
 :date: 2019-12-18 12:00
 :url:
-:save_as: tutorial-packaging.html
+:save_as: tutorial/packaging.html
 
 Tutorial - Packaging: Share your code for pip and Conda
 =======================================================
