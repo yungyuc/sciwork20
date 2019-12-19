@@ -38,8 +38,8 @@ Tutorials
 
 Two hands-on tutorials are scheduled in the afternoon:
 
-* Hypothesis Testing with Python
-* Packaging: Share your code for pip and Conda
+* `Hypothesis Testing with Python <tutorial/hypothesis-testing.html>`__
+* `Packaging: Share your code for pip and Conda <tutorial/packaging.html>`__
 
 Each tutorial uses three hours.
 
@@ -110,14 +110,22 @@ Schedule
      <div class="col s12 m5 card z-depth-0">
        <span class="label rm1"></span>
        <span class="label tutorial"></span>
-       <div class="evt-title">Hypothesis Testing with Python</div>
-       by <a href="https://github.com/moskytw">Mosky Liu</a>
+       <div class="evt-title">
+         <a href="tutorial/hypothesis-testing.html">
+         Hypothesis Testing with Python
+         </a>
+       </div>
+       by Mosky Liu
      </div>
      <div class="col s12 m5 card z-depth-0">
        <span class="label rm2"></span>
        <span class="label tutorial"></span>
-       <div class="evt-title">Packaging: Share your code for pip and Conda</div>
-       by <a href="https://twitter.com/uranusjr">Tzu-ping Chung</a>
+       <div class="evt-title">
+         <a href="tutorial/packaging.html">
+         Packaging: Share your code for pip and Conda
+         </a>
+       </div>
+       by Tzu-Ping Chung
      </div>
      <div class="col s12 m5 offset-m2 card z-depth-0">
        <span class="label rm3"></span>
