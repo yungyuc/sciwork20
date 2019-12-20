@@ -12,13 +12,13 @@ flow for contribution is:
 1. Clone the repository
 2. Run a local devserver
 3. Edit the content
-4. File a pull request (PR) against *`develop`* branch
+4. File a pull request (PR) against ``develop`` branch
 5. Resolve discussions in the PR review
 6. PR is merged, done
 
 .. note::
 
-  Do NOT file PR aginast the `master` branch.
+  Do NOT file PR against the ``master`` branch.
 
 In the working copy root, run the following command for the local devserver:
 
