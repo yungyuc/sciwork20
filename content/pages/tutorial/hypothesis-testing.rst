@@ -21,7 +21,7 @@ Tutorial - Hypothesis Testing in Python
 (English)
 
 This tutorial will guide attendees to conduct hypothesis testing in Python with
-real datasets, and help them use it in daily work.
+real datasets, and help attendees use it in daily work.
 
 In an experiment, the averages of the control group and the experimental group
 are 0.72 and 0.76. Is the experimental group better than the control group? Or
@@ -48,10 +48,11 @@ Target audience
 
 (English)
 
-1. You want to know more applications of Python.
-2. You are a Python engineer and want to know more about Python in data
+1. People who want to know more applications of Python.
+2. People who are Python engineers and want to know more about Python in data
    science.
-3. You are a data scientist and want to know more about Python in statistics.
+3. People who are data scientists and want to know more about Python in
+   statistics.
 
 Speaker introduction
 ====================
@@ -87,7 +88,7 @@ Detail description
 同時講解關於 p-value 常見的誤解以及 α、power、β 與 confidence level
 之間的關係，最後介紹常見的測試與完整的測試指南。
 
-假設檢定通常用於科學實驗，以判斷治療／修改是否有效。
+假設檢定通常用於實驗研究，以判斷治療／修改是否有效。
 但在工程中的品質控制也非常好用。例如我們可以監控特定功能使用成功率，
 利用假設檢定判斷是否需要介入。講師將在課程中詳細介紹。
 
@@ -100,19 +101,19 @@ common tests, and finally an overall guide to do a hypothesis test,
 
 We usually use hypothesis testing for the experiments in research, but it is
 also useful for the quality control in industry, e.g., we can monitor the
-success rate of a specific function and use hypothesis testing to judge whether
+success ratio of a specific feature and use hypothesis testing to judge whether
 we need to step in. I will expand the details in the tutorial.
 
 Requirement
 -----------
 
 1. 本工作坊不包含 Python 基本語法，參加者必須了解 Python 基本語法。
-2. 會包含機率、統計學與 Python 資料處理與科學計算內容。
+2. 本工作坊會包含機率、統計學與 Python 資料處理與科學計算等內容。
    講師不會詳加介紹，但歡迎學員提問。
 
 (English)
 
 1. Attendees should understand the basic Python syntax.
-2. It will include probability, statistics, Python data processing and
-   scientific computing.  I will not introduce them in great detail, but you
-   are welcome to ask.
+2. This tutorial will mention probability, statistics, Python data processing
+   and scientific computing, but won't introduce them. The attendees are still
+   welcome to ask about the details.
