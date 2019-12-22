@@ -3,7 +3,7 @@ Sciwork 2020 - Welcome
 ======================
 
 :date: 2019-07-19 20:00
-:url:
+:url: index.html
 :save_as: index.html
 
 

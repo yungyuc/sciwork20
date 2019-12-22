@@ -27,9 +27,11 @@
     {% for article in articles_page.object_list %}
       <div class="row">
         <div class="col s12 card">
-          <div class="article-title">{{ article.title }}</div>
-          {% include 'article_infos.html' %}
           <div class="card-content">
+            <div class="article-title">
+              <a class="grey-text text-darken-3" href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+            </div>
+            {% include 'article_infos.html' %}
             {{ article.summary }}
           </div>
           <div class="card-action">

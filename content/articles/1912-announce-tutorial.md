@@ -5,9 +5,9 @@ Category: General
 In the coming sciwork conference, we are planning for two hands-on tutorials to
 introduce important programming skills to the audience:
 
-- [Hypothesis Testing with Python](../../tutorial/hypothesis-testing.html)
+- [Hypothesis Testing with Python]({filename}/pages/tutorial/hypothesis-testing.rst)
   (Mosky Liu)
-- [Packaging: Share your code for pip and Conda](../../tutorial/packaging.html)
+- [Packaging: Share your code for pip and Conda]({filename}/pages/tutorial/packaging.rst)
   (Tzu-Ping Chung)
 
 The lecturers have a lot of experience, and will guide the attendees to explore

@@ -2,7 +2,7 @@ Venue
 =====
 
 :date: 2019-9-22 8:00
-:url:
+:url: venue.html
 :save_as: venue.html
 
 The conference is planned to be held in `National Chiao Tung University

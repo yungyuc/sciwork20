@@ -3,6 +3,7 @@ Sciwork Prospectus
 ==================
 
 :date: 2019-12-19 08:00
+:url: prospectus.html
 :save_as: prospectus.html
 
 .. |br| raw:: html
