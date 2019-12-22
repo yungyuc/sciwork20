@@ -1,5 +1,5 @@
 Title: Sciwork 2020 tutorials
-Date: 2019-12-20 12:00
+Date: 2019-12-22 17:00
 Category: General
 
 In the coming sciwork conference, we are planning for two hands-on tutorials to
