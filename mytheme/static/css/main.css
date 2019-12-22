@@ -81,6 +81,10 @@ ul.simple { margin: 1em 0em 1em 1.5em; }
 ul.simple ul { margin: 0.15em 0em 0.15em 1.5em; }
 ul.simple li { list-style: outside disc;}
 
+#content ul { margin: 1em 0em 1em 1.5em; }
+#content ul ul { margin: 0.15em 0em 0.15em 1.5em; }
+#content ul li { list-style: outside disc;}
+
 @media (min-width: 600px) {
   .evt-valign-wrapper {
     display: flex;
