@@ -3,7 +3,7 @@ Sciwork Sponsorship
 ===================
 
 :date: 2019-12-19 08:00
-:url:
+:url: sponsors.html
 :save_as: sponsors.html
 
 Solicit Sponsorship

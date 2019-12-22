@@ -43,8 +43,19 @@
           <li><div class="divider"> </div></li>
           {% endif %}
 
+          {% if output_file == 'index.html' %}
+            {% set active_title = 'welcome' %}
+          {% elif output_file.startswith('blog') or output_file.startswith('articles') %}
+            {% set active_title = 'blog' %}
+          {% elif output_file.startswith('sprint') or output_file.startswith('tutorial') %}
+            {% set active_title = 'program' %}
+          {% elif output_file == 'prospectus.html' %}
+            {% set active_title = 'sponsors' %}
+          {% else %}
+            {% set active_title = output_file.replace('.html', '') %}
+          {% endif %}
           {% for title, link in MENUITEMS %}
-          <li {% if output_file == link or title|upper == page_name|upper %}class="active"{% endif %}>
+          <li {% if active_title == title|lower %}class="active"{% endif %}>
             <a href="{{ SITEURL }}/{{ link }}">{{ title }}</a>
           </li>
           {% endfor %}
