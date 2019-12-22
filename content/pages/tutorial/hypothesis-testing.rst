@@ -21,7 +21,7 @@ Tutorial - Hypothesis Testing in Python
 (English)
 
 This tutorial will guide attendees to conduct hypothesis testing in Python with
-real datasets, and help attendees to use it in daily work.
+real datasets, and help attendees use it in daily work.
 
 In an experiment, the averages of the control group and the experimental group
 are 0.72 and 0.76. Is the experimental group better than the control group? Or
@@ -114,6 +114,6 @@ Requirement
 (English)
 
 1. Attendees should understand the basic Python syntax.
-2. This workshop will mention probability, statistics, Python data processing
+2. This tutorial will mention probability, statistics, Python data processing
    and scientific computing, but won't introduce them. The attendees are still
    welcome to ask about the details.
