@@ -16,4 +16,4 @@ Contact us
 Sciwork team
 ============
 
-* `Yung-Yu Chen <https://twitter.com/yungyuc>`__
+* Yung-Yu Chen, Ph.D. (`@yungyuc <https://twitter.com/yungyuc>`__, `LinkedIn <https://www.linkedin.com/in/yungyuc>`__)
