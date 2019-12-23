@@ -17,3 +17,4 @@ Sciwork team
 ============
 
 * Yung-Yu Chen, Ph.D. (`@yungyuc <https://twitter.com/yungyuc>`__, `LinkedIn <https://www.linkedin.com/in/yungyuc>`__)
+* Ping-Lien Chao (`@poseidon3141592 <https://twitter.com/poseidon3141592>`__)
