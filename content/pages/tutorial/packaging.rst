@@ -23,6 +23,7 @@ Attendees will be able to produce a Python package using Setuptools's PEP 517
 backend, ready to be published to both a Python Package Index (PyPI) and a
 community Conda repository (conda-forge). The package will contain both
 importable Python files (pure modules and packages) and non-code data files.
+
 Attendees will also be able to familiarize themselves with commonly-used
 project management tools, and be ready to understand workflows of popular
 packages, and to make contributions for them.
@@ -30,7 +31,12 @@ packages, and to make contributions for them.
 Target audience
 ---------------
 
-TBD
+Python users that already understand Python modules, and want to package such
+code so they can use them with ``pip install`` or ``conda install``.
+
+Atendees are encouraged to bring their own modules to package, and explore how
+they can be converted into an installable format.
+
 
 Speaker introduction
 ====================
@@ -56,4 +62,12 @@ TBD
 Requirement
 -----------
 
-TBD
+Attendees should know how to write Python modules (files that can be imported
+by another file). They should have basic understandings to the command line,
+and know how to create, rename, and edit files in a text editor or the command
+line, on their own computers.
+
+Please have the followings ready before the tutorial:
+
+* Any Python installation with either virtualenv or venv available.
+* (optional) Conda, if the attendee wants to package for ``conda install``.
