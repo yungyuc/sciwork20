@@ -6,7 +6,7 @@ Sciwork is a conference for numerical code, and we certinaly will let everyone
 enjoy the coding hours.  In sciwork 2020, there are two development sprints:
 
 - [Uni10]({filename}/pages/sprint/uni10.rst), a numerical library designed for tensor networks.
-- [libst](sprint/libst.html), a code to solve conservation laws by using the
+- [libst]({filename}/pages/sprint/libst.rst), a code to solve conservation laws by using the
   space-time conservation element and solution element (CESE) method.
 
 And it's just the beginning.  Sciwork is actually more than just a conference
