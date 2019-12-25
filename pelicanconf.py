@@ -31,6 +31,7 @@ MENUITEMS = (
     ('Program', 'program.html'),
     ('Sponsors', 'sponsors.html'),
     ('Venue', 'venue.html'),
+    ('About', 'about.html'),
 )
 
 
