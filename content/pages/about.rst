@@ -23,3 +23,4 @@ Sciwork team
 * Yu-Fang Hu (`Email <mailto:yuko29.cs07@nctu.edu.tw>`__)
 * Chi-Ching Lin (`Email <mailto:vickykciv520.dhss07@nctu.edu.tw>`__)
 * Tsung-Hsien Peter Li (`Email <thpeterli@gmail.com>`__)
+* Jenny Yen (`Email <jenny35006@gmail.com>`__)
