@@ -13,6 +13,7 @@ SITEDESC = (
     'numerical, and engineering work.  We will focus on source code, and encourage '
     'attendees to share open-source work for both scientific researches and '
     'technical applications.')
+TWITTER_USERNAME = 'sciwork'
 
 PATH = 'content'
 

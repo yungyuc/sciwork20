@@ -145,3 +145,22 @@ ul.simple li { list-style: outside disc;}
 .card-content h4 { font-size: 1.15em; }
 .card-content h5, h6 { font-size: 1em; }
 .dropdown-content li>a, .dropdown-content li>span { color: #424242; }
+
+.tweet-btn {
+  color: #fff;
+  background-color: #00acee;
+  vertical-align: middle;
+  letter-spacing: .5px;
+  cursor: pointer;
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px;
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  padding: 0 12px;
+  margin-top: 0.4em;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transition: background-color .2s ease-out;
+  transition: background-color .2s ease-out;
+}
