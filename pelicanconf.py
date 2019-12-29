@@ -16,6 +16,7 @@ SITEDESC = (
 TWITTER_USERNAME = 'sciwork'
 
 PATH = 'content'
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'Asia/Taipei'
 
