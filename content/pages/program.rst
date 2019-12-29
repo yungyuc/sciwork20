@@ -46,6 +46,8 @@ Each tutorial uses three hours.
 Schedule
 ========
 
+See `Venue <{filename}/pages/venue.rst>`__ for the location of rooms.
+
 .. raw:: html
 
    <div class="row evt-valign-wrapper red lighten-5">
@@ -63,11 +65,11 @@ Schedule
    <div class="row">
      <div class="col s12 m2 evt-time-margin"><span class="evt-time">09:10 - 09:50</span></div>
      <div class="col s12 m5 card z-depth-0">
-       <span class="label rm1"></span>
+       <span class="label rm211"></span>
        <div class="evt-title">Talk 1-1</div>
      </div>
      <div class="col s12 m5 card z-depth-0">
-       <span class="label rm2"></span>
+       <span class="label rm203"></span>
        <div class="evt-title">Talk 2-1</div>
      </div>
    </div>
@@ -78,11 +80,11 @@ Schedule
    <div class="row">
      <div class="col s12 m2 evt-time-margin"><span class="evt-time">10:20 - 11:00</span></div>
      <div class="col s12 m5 card z-depth-0">
-       <span class="label rm1"></span>
+       <span class="label rm211"></span>
        <div class="evt-title">Talk 1-2</div>
      </div>
      <div class="col s12 m5 card z-depth-0">
-       <span class="label rm2"></span>
+       <span class="label rm203"></span>
        <div class="evt-title">Talk 2-2</div>
      </div>
    </div>
@@ -93,11 +95,11 @@ Schedule
    <div class="row">
      <div class="col s12 m2 evt-time-margin"><span class="evt-time">11:10 - 11:50</span></div>
      <div class="col s12 m5 card z-depth-0">
-       <span class="label rm1"></span>
+       <span class="label rm211"></span>
        <div class="evt-title">Talk 1-3</div>
      </div>
      <div class="col s12 m5 card z-depth-0">
-       <span class="label rm2"></span>
+       <span class="label rm203"></span>
        <div class="evt-title">Talk 2-3</div>
      </div>
    </div>
@@ -108,7 +110,7 @@ Schedule
    <div class="row">
      <div class="col s12 m2 evt-time-margin"><span class="evt-time">13:30 - 16:30</span></div>
      <div class="col s12 m5 card z-depth-0">
-       <span class="label rm1"></span>
+       <span class="label rm211"></span>
        <span class="label tutorial"></span>
        <div class="evt-title">
          <a href="tutorial/hypothesis-testing.html">
@@ -118,7 +120,7 @@ Schedule
        by Mosky Liu
      </div>
      <div class="col s12 m5 card z-depth-0">
-       <span class="label rm2"></span>
+       <span class="label rm203"></span>
        <span class="label tutorial"></span>
        <div class="evt-title">
          <a href="tutorial/packaging.html">
@@ -128,13 +130,13 @@ Schedule
        by Tzu-Ping Chung
      </div>
      <div class="col s12 m5 offset-m2 card z-depth-0">
-       <span class="label rm3"></span>
+       <span class="label rm202"></span>
        <span class="label sprint"></span>
        <div class="evt-title"><a href="sprint/uni10.html">uni10</a></div>
        by Ying-jer Kao and Pochung Chen
      </div>
      <div class="col s12 m5 card z-depth-0">
-       <span class="label rm4"></span>
+       <span class="label rm201"></span>
        <span class="label sprint"></span>
        <div class="evt-title"><a href="sprint/libst.html">libst</a></div>
        by Yung-Yu Chen

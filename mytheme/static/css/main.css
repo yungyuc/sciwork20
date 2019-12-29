@@ -121,16 +121,16 @@ ul.simple li { list-style: outside disc;}
   padding: 0 2px;
   margin-right: 6px;
 }
-.rm1 { background: #fbc02d; }
-.rm2 { background: #2196f3; }
-.rm3 { background: #4caf50; }
-.rm4 { background: #9c27b0; }
+.rm211 { background: #fbc02d; }
+.rm203 { background: #2196f3; }
+.rm202 { background: #4caf50; }
+.rm201 { background: #9c27b0; }
 .tutorial { background: #424242; }
 .sprint { background: #424242;}
-.rm1:before { content: "RM1"; }
-.rm2:before { content: "RM2"; }
-.rm3:before { content: "RM3"; }
-.rm4:before { content: "RM4"; }
+.rm211:before { content: "RM211"; }
+.rm203:before { content: "RM203"; }
+.rm202:before { content: "RM202"; }
+.rm201:before { content: "RM201"; }
 .tutorial:before { content: "Tutorial"; }
 .sprint:before { content: "Sprint"; }
 
@@ -145,3 +145,22 @@ ul.simple li { list-style: outside disc;}
 .card-content h4 { font-size: 1.15em; }
 .card-content h5, h6 { font-size: 1em; }
 .dropdown-content li>a, .dropdown-content li>span { color: #424242; }
+
+.tweet-btn {
+  color: #fff;
+  background-color: #00acee;
+  vertical-align: middle;
+  letter-spacing: .5px;
+  cursor: pointer;
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px;
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  padding: 0 12px;
+  margin-top: 0.4em;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transition: background-color .2s ease-out;
+  transition: background-color .2s ease-out;
+}
