@@ -137,7 +137,7 @@ See `Venue <{filename}/pages/venue.rst>`__ for the room location.
    </div>
    <div class="row evt-valign-wrapper">
      <div class="col s12 m2"><span class="evt-time">16:40 - 17:00</span></div>
-     <div class="col s12 m10"><span class="evt-title">Closeing</span></div>
+     <div class="col s12 m10"><span class="evt-title">Closing</span></div>
    </div>
    <div class="row evt-valign-wrapper red lighten-5">
      <div class="col s12 m2"><span class="evt-time">18:00 -</span></div>
