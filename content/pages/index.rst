@@ -2,13 +2,16 @@
 Sciwork 2020 - Welcome
 ======================
 
-:date: 2019-07-19 20:00
+:date: 2020-01-08 20:23
 :url: index.html
 :save_as: index.html
 
 
 Science, code, and open source
 ==============================
+
+Update (1/8): Sciwork is open for registration:
+https://sciwork.kktix.cc/events/sciwork2020
 
 Sciwork is a conference for researchers and engineers to share and discuss
 computer code for scientific, numerical, and engineering work.  It will be held

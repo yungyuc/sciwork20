@@ -2,70 +2,12 @@
 Program
 =======
 
-:date: 2020-01-06 21:09
+:date: 2020-01-08 20:23
 :url: program.html
 :save_as: program.html
 
 Program
 =======
-
-The technical program consists of 6 talks, 2 sprints, and 2 hands-on tutorials.
-See `Venue <{filename}/pages/venue.rst>`__ for the room location.
-
-Technical talks
----------------
-
-Six technical talks are scheduled in the morning.
-
-Track 1 (Rm 211):
-
-* `Diving into TensorFlow 2.0 Ecosystem <{filename}/pages/talk/diving.rst>`__
-  (by TJWei)
-* `Moving Your Experimentation Project to Production Applications with Pyspark
-  <{filename}/pages/talk/moving.rst>`__ (by Shuhsi Lin and Daren Hsu)
-* `uTensor: Make Devices Smart Again!  <{filename}/pages/talk/utensor.rst>`__
-  (by Neil Tan, Kazami Hsieh, and Dboy Liao)
-
-Track 2 (Rm 203):
-
-* `Numerical Software and Open Source <{filename}/pages/talk/numerical.rst>`__
-  (by Yung-Yu Chen)
-* `Golang: Goroutines and Channels <{filename}/pages/talk/golang.rst>`__
-  (by Cheng-Lung Sung)
-* `Introduction to Deep Probabilistic Programming with Pyro
-  <{filename}/pages/talk/pyro.rst>`__ (by 柯維然)
-
-Each talk uses 40 minutes.
-
-Sprints
--------
-
-Two sprint sessions are scheduled in the afternoon:
-
-* `Uni10 <{filename}/pages/sprint/uni10.rst>`__ (Rm 202), a numerical library
-  designed for tensor networks, led by Ying-jer Kao and Pochung Chen.
-* `libst <{filename}/pages/sprint/libst.rst>`__ (Rm 201), a code to solve
-  conservation laws by using the space-time conservation element and solution
-  element (CESE) method, led by Yung-Yu Chen.
-
-Each sprint session uses 3 hours.
-
-Tutorials
----------
-
-Two hands-on tutorials are scheduled in the afternoon:
-
-* `Hypothesis Testing with Python
-  <{filename}/pages/tutorial/hypothesis-testing.rst>`__ (Rm 211), instructed by
-  Mosky Liu.
-* `Packaging: Share your code for pip and Conda
-  <{filename}/pages/tutorial/packaging.rst>`__ (Rm 203), instructed by Tzu-Ping
-  Chung.
-
-Each tutorial uses 3 hours.
-
-Schedule
-========
 
 See `Venue <{filename}/pages/venue.rst>`__ for the room location.
 
@@ -161,7 +103,7 @@ See `Venue <{filename}/pages/venue.rst>`__ for the room location.
          Hypothesis Testing with Python
          </a>
        </div>
-       by Mosky Liu
+       (Tutorial instructed by Mosky Liu)
      </div>
      <div class="col s12 m5 card z-depth-0">
        <span class="label rm203"></span>
@@ -171,19 +113,22 @@ See `Venue <{filename}/pages/venue.rst>`__ for the room location.
          Packaging: Share your code for pip and Conda
          </a>
        </div>
-       by Tzu-Ping Chung
+       (Tutorial instructed by Tzu-Ping Chung)
      </div>
      <div class="col s12 m5 offset-m2 card z-depth-0">
        <span class="label rm202"></span>
        <span class="label sprint"></span>
        <div class="evt-title"><a href="sprint/uni10.html">uni10</a></div>
-       by Ying-jer Kao and Pochung Chen
+       <div>Numerical library designed for tensor networks</div>
+       (Sprint led by Ying-jer Kao and Pochung Chen)
      </div>
      <div class="col s12 m5 card z-depth-0">
        <span class="label rm201"></span>
        <span class="label sprint"></span>
        <div class="evt-title"><a href="sprint/libst.html">libst</a></div>
-       by Yung-Yu Chen
+       <div>Code to solve conservation laws by using the space-time
+       conservation element and solution element (CESE) method</div>
+       (Sprint led by Yung-Yu Chen)
      </div>
    </div>
    <div class="row evt-valign-wrapper grey lighten-4">
@@ -198,3 +143,4 @@ See `Venue <{filename}/pages/venue.rst>`__ for the room location.
      <div class="col s12 m2"><span class="evt-time">18:00 -</span></div>
      <div class="col s12 m10"><span class="evt-title">After party</span></div>
    </div>
+
