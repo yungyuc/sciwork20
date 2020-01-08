@@ -32,8 +32,6 @@ sprints, hands-on tutorials, and technical talks in the conference.  Attendees
 are expected to be in different levels of code development.  We will work
 together for good and open computational sciences.
 
-See the `program page <program.html>`__ for talk proposal submission.
-
 Areas of topics
 ===============
 
