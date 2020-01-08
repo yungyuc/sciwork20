@@ -37,8 +37,8 @@ library targeting MCU.
 Speaker
 =======
 
-This talk will be presented by three speakers: Dboy Liao, Neil Tan, and Kazami
-Hsieh.  They are the team members of the ``uTensor`` project.
+This talk will be presented by three speakers: Neil Tan, Kazami Hsieh, and Dboy
+Liao.  They are the team members of the ``uTensor`` project.
 
 Neil Tan, the project manager and core developer of uTensor, will talk about
 the motivation of uTensor and many applications such as sensor fusion, AIoT and

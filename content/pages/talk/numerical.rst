@@ -27,8 +27,8 @@ systems, and computer architecture are all necessary.  It cannot be learned
 without practice and open source software provides is a good (and probably the
 most efficient) way to do it.
 
-This talk will discuss the following topics that integrate open source software
-development with numerical software:
+This talk will discuss the following topics that integrate numerical software
+development with open source:
 
 * Useful open source tools for numerical software
 * Software engineering with open source infrastructure
