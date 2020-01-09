@@ -45,7 +45,7 @@ Host:
   Yung-Yu Chen `@yungyuc <https://twitter.com/yungyuc>`__
 
 Room:
-  TBD
+  201
 
 Introduction
 ------------
