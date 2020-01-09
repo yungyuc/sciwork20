@@ -32,7 +32,7 @@ Hosts:
   Ying-jer Kao and Pochung Chen
 
 Room:
-  TBD
+  202
 
 Introduction
 ------------
