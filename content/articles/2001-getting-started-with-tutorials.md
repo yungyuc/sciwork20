@@ -1,4 +1,4 @@
-Title: Tutorials in sciwork
+Title: Getting started with sciwork tutorials
 Date: 2020-01-10 22:46
 Category: General
 
