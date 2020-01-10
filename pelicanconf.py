@@ -7,6 +7,8 @@ import os
 AUTHOR = 'Sciwork Team'
 SITENAME = 'Sciwork'
 SITEURL = os.environ.get('SITEURL', 'https://conf.sciwork.dev/2020')
+if os.environ.get('GOOGLE_ANALYTICS'):
+    GOOGLE_ANALYTICS = os.environ['GOOGLE_ANALYTICS']
 SITESUBTITLE = 'code for science'
 SITEDESC = (
     'Sciwork is a conference to share and discuss computer code for scientific, '
