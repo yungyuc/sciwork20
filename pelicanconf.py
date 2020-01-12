@@ -39,6 +39,7 @@ DEFAULT_CATEGORY = 'Misc'
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = (
+    ('&laquo; Register &raquo;', 'https://sciwork.kktix.cc/events/sciwork2020'),
     ('Welcome', 'index.html'),
     ('Blog', 'blog.html'),
     ('Program', 'program.html'),

@@ -56,7 +56,11 @@
           {% endif %}
           {% for title, link in MENUITEMS %}
           <li {% if active_title == title|lower %}class="active"{% endif %}>
+            {% if link.startswith('http') %}
+            <a href="{{ link }}">{{ title }}</a>
+            {% else %}
             <a href="{{ SITEURL }}/{{ link }}">{{ title }}</a>
+            {% endif %}
           </li>
           {% endfor %}
         </ul>
