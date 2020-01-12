@@ -7,6 +7,7 @@ import os
 AUTHOR = 'Sciwork Team'
 SITENAME = 'Sciwork'
 SITEURL = os.environ.get('SITEURL', 'https://conf.sciwork.dev/2020')
+REGURL = 'https://sciwork.kktix.cc/events/sciwork2020'
 if os.environ.get('GOOGLE_ANALYTICS'):
     GOOGLE_ANALYTICS = os.environ['GOOGLE_ANALYTICS']
 SITESUBTITLE = 'code for science'
@@ -39,7 +40,6 @@ DEFAULT_CATEGORY = 'Misc'
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = (
-    ('&laquo; Register &raquo;', 'https://sciwork.kktix.cc/events/sciwork2020'),
     ('Welcome', 'index.html'),
     ('Blog', 'blog.html'),
     ('Program', 'program.html'),
