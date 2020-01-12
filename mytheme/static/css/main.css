@@ -23,6 +23,12 @@ body {
 }
 
 a { color: #c62828; }
+.headerlink {
+  opacity: 0;
+  font-size: 40%;
+  cursor: pointer;
+}
+.headerlink:hover { opacity: 1; }
 
 main { flex: 1 0 auto; }
 
