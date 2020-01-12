@@ -48,7 +48,7 @@
             {% set active_title = 'welcome' %}
           {% elif output_file.startswith('blog') or output_file.startswith('articles') %}
             {% set active_title = 'blog' %}
-          {% elif output_file.startswith('sprint') or output_file.startswith('tutorial') %}
+          {% elif output_file.startswith('talk') or output_file.startswith('sprint') or output_file.startswith('tutorial') %}
             {% set active_title = 'program' %}
           {% elif output_file == 'prospectus.html' %}
             {% set active_title = 'sponsors' %}
