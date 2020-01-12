@@ -26,6 +26,15 @@ DEFAULT_LANG = 'en'
 ARTICLE_TRANSLATION_ID = None
 PAGE_TRANSLATION_ID = None
 
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['headerid']
+HEADERID_LINK_CHAR = '&para;'
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.toc': {'permalink': True},
+    },
+}
+
 DEFAULT_CATEGORY = 'Misc'
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
