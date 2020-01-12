@@ -41,13 +41,14 @@
             </a>
           </li>
           <li><div class="divider"> </div></li>
+          <li><a class="btn red darken-4 white-text" href="{{ REGURL }}">Register</a></li>
           {% endif %}
 
           {% if output_file == 'index.html' %}
             {% set active_title = 'welcome' %}
           {% elif output_file.startswith('blog') or output_file.startswith('articles') %}
             {% set active_title = 'blog' %}
-          {% elif output_file.startswith('sprint') or output_file.startswith('tutorial') %}
+          {% elif output_file.startswith('talk') or output_file.startswith('sprint') or output_file.startswith('tutorial') %}
             {% set active_title = 'program' %}
           {% elif output_file == 'prospectus.html' %}
             {% set active_title = 'sponsors' %}
@@ -56,9 +57,16 @@
           {% endif %}
           {% for title, link in MENUITEMS %}
           <li {% if active_title == title|lower %}class="active"{% endif %}>
+            {% if link.startswith('http') %}
+            <a href="{{ link }}">{{ title }}</a>
+            {% else %}
             <a href="{{ SITEURL }}/{{ link }}">{{ title }}</a>
+            {% endif %}
           </li>
           {% endfor %}
+          {% if typ == 'desktop' %}
+          <li><a class="btn red darken-4 white-text" href="{{ REGURL }}">Register</a></li>
+          {% endif %}
         </ul>
         {% endfor %}
 
@@ -77,18 +85,28 @@
     <div class="container">
       <div class="row" id="contact">
         <h4>Contact us</h4>
-        <a href="https://twitter.com/intent/tweet?screen_name=sciwork&ref_src=twsrc%5Etfw" data-show-count="false"><i class="fab fa-twitter-square"></i></a>
-        <a href="mailto: contact@sciwork.dev"><i class="fas fa-envelope-square"></i></a>
+        <a class="fa-stack" target="_blank" href="https://twitter.com/intent/tweet?screen_name=sciwork&ref_src=twsrc%5Etfw" data-show-count="false">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fab fa-twitter fa-stack-1x grey-text text-darken-2"></i>
+        </a>
+        <a class="fa-stack" target="_blank" href="https://t.me/sciwork2020">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fab fa-telegram-plane fa-stack-1x grey-text text-darken-2"></i>
+        </a>
+        <a class="fa-stack" target="_blank" href="mailto: contact@sciwork.dev">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fas fa-envelope fa-stack-1x grey-text text-darken-2"></i>
+        </a>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
         Website is powered by
-        <a href="https://getpelican.com">Pelican</a>
+        <a target="_blank" href="https://getpelican.com">Pelican</a>
         and
-        <a href="https://python.org">Python</a>.
+        <a target="_blank" href="https://python.org">Python</a>.
         Theme by
-        <a href="https://materializecss.com">Materialize</a>.
+        <a target="_blank" href="https://materializecss.com">Materialize</a>.
       </div>
     </div>
   </footer><!-- /#contentinfo -->
