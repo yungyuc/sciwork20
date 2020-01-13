@@ -49,8 +49,11 @@ multi-node/multi-gpu programming paradigm will also be explored.
 Objective
 ---------
 
-* Make test cases for inserting numpy array to C++ array.
-* Make test cases for matrix transpose/multiplication in GPU.
+* Enhance the new architecture with unit tests and regression tests:
+
+  * Make test cases for inserting numpy array to C++ array.
+  * Make test cases for matrix transpose/multiplication in GPU.
+* Enable `llvm-tidy <https://clang.llvm.org/extra/clang-tidy/>`__ on the CI.
 * Resolve other tickets.
 
 Requirements
