@@ -34,14 +34,16 @@ Target audience
 Python users that already understand Python modules, and want to package such
 code so they can use them with ``pip install`` or ``conda install``.
 
-Atendees are encouraged to bring their own modules to package, and explore how
+Attendees are encouraged to bring their own modules to package, and explore how
 they can be converted into an installable format.
 
 
 Speaker introduction
 ====================
 
-Tzu-Ping Chung (`@uranusjr <https://twitter.com/uranusjr>`__)
+Tzu-Ping Chung (`@uranusjr`_)
+
+.. _`@uranusjr`: https://twitter.com/uranusjr
 
 TP builds his career around open source software, and enjoys committing his
 efforts to help make the world better. He builds all kinds of software for a
@@ -57,7 +59,26 @@ architectural design discussions as a member of the Python Packaging Authority
 Detail description
 ==================
 
-TBD
+We will be following the *Packaging Python Projects* tutorial from the
+`Python Packaging User Guide`_ for ``setup.py`` and PyPI, and
+*Building conda packages from scratch* from the `Conda-build documentation`_
+for ``conda-build`` and conda-forge. Some additional topics not able to fit
+into the conference schedule will be covered in slides for future reference.
+
+.. _`Python Packaging User Guide`: https://packaging.python.org/
+.. _`Conda-build documentation`: https://docs.conda.io/projects/conda-build/
+
+* 13:30–13:50: Overview and setup troubleshooting.
+* 13:50–14:15: Create a Python package with Setuptools and ``setup.py``.
+* 14:15–14:45: Upload to the package index (PyPI).
+* 14:45–15:30: Excersise and Q&A.
+* 14:45–15:00: Break.
+* 15:00–15:15: Package for Conda with ``conda-build``.
+* 15:15–15:45: Excersise and Q&A.
+* 15:45–16:00: Upload to conda-forge.
+* 16:00–16:30: Miscellaneous topics: binary packages, continuous integration,
+  and other useful tools (as time permits).
+
 
 Requirement
 -----------
@@ -69,5 +90,9 @@ line, on their own computers.
 
 Please have the followings ready before the tutorial:
 
-* Any Python installation with either virtualenv or venv available.
-* (optional) Conda, if the attendee wants to package for ``conda install``.
+* Any Python installation with pip, and either virtualenv or venv available.
+* Conda from either Miniconda_ or Anaconda.
+* (Optional) Some Python code you want to package and publish as a Python
+  and/or Conda package.
+
+.. _Miniconda: https://conda.io/en/latest/miniconda.html
