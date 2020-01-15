@@ -22,5 +22,6 @@ Sciwork team
 * Ping-Lien Chao (`@poseidon3141592 <https://twitter.com/poseidon3141592>`__)
 * Yu-Fang Hu (`Email <mailto:yuko29.cs07@nctu.edu.tw>`__)
 * Chi-Ching Lin (`Email <mailto:vickykciv520.dhss07@nctu.edu.tw>`__)
-* Tsung-Hsien Peter Li (`Email <thpeterli@gmail.com>`__)
-* Jenny Yen (`Email <jenny35006@gmail.com>`__)
+* Tsung-Hsien Peter Li (`Email <mailto:thpeterli@gmail.com>`__)
+* Jenny Yen (`Email <mailto: jenny35006@gmail.com>`__)
+* Shu-Fen Yu (`Email <mailto: yu.sophi@gmail.com>`__)
