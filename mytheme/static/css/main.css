@@ -151,13 +151,13 @@ ul.simple li { list-style: outside disc;}
 .card-content h5, h6 { font-size: 1em; }
 .dropdown-content li>a, .dropdown-content li>span { color: #424242; }
 
-.tweet-btn {
+.social-btn {
   color: #fff;
-  background-color: #00acee;
   vertical-align: middle;
   letter-spacing: .5px;
   cursor: pointer;
   height: 24px;
+  width: 80px;
   line-height: 24px;
   font-size: 12px;
   border: none;
