@@ -31,6 +31,9 @@
           {{ SITENAME }}
         </a>
 
+        <ul class="right">
+          <li><a class="btn red darken-4 white-text" href="{{ REGURL }}" onclick="ga('send', 'event', 'Register', 'click');">Register</a></li>
+        </ul>
         {% for typ, cls in [('desktop', 'right hide-on-med-and-down'), ('mobile', 'sidenav')] %}
         <ul class="{{ cls }}" id="nav-{{ typ }}">
           {% if typ == 'mobile' %}
@@ -41,7 +44,6 @@
             </a>
           </li>
           <li><div class="divider"> </div></li>
-          <li><a class="btn red darken-4 white-text" href="{{ REGURL }}">Register</a></li>
           {% endif %}
 
           {% if output_file == 'index.html' %}
@@ -64,9 +66,6 @@
             {% endif %}
           </li>
           {% endfor %}
-          {% if typ == 'desktop' %}
-          <li><a class="btn red darken-4 white-text" href="{{ REGURL }}">Register</a></li>
-          {% endif %}
         </ul>
         {% endfor %}
 
