@@ -29,10 +29,10 @@ PAGE_TRANSLATION_ID = None
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['headerid']
-HEADERID_LINK_CHAR = '&para;'
+HEADERID_LINK_CHAR = '&nbsp;'
 MARKDOWN = {
     'extension_configs': {
-        'markdown.extensions.toc': {'permalink': True},
+        'markdown.extensions.toc': {'permalink': '&nbsp;'},
     },
 }
 
