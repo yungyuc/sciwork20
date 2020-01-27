@@ -2,13 +2,15 @@
 About
 =====
 
-:date: 2019-12-25 11:54
+:date: 2020-01-27 09:31
 :url: about.html
 :save_as: about.html
 
 Contact us
 ==========
 
+* HackMD: `frontpage <https://hackmd.io/@sciwork/HyZO42sZ8>`__ and `conference
+  note collection <https://hackmd.io/@sciwork?tags=%5B%22sciwork20%22%5D>`__
 * Twitter: https://twitter.com/sciwork
 * Telegram group (online chatroom): https://t.me/sciwork2020
 * Email: contact@sciwork.dev
