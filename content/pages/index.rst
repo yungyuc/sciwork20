@@ -11,10 +11,10 @@ Science, code, and open source
 ==============================
 
 Update (2/3): Because of the novel coronavirus (2019-nCoV), our venue NCTU will
-delay the classes to 3/2, and we will follow.  We are working on the new date
-(the original date was 22nd February, 2020), and will udpate when it is set.
-If the new time doesn't work for you, we will arrange refund.  Sorry for the
-potential inconvenience.
+`delay the classes to 3/2 <https://www.taiwannews.com.tw/en/news/3869939>`__,
+and we will follow.  We are working on the new date (the original date was 22nd
+February, 2020), and will udpate when it is set.  If the new time doesn't work
+for you, we will arrange refund.  Sorry for the potential inconvenience.
 
 Update (1/8): Sciwork is open for registration:
 https://sciwork.kktix.cc/events/sciwork2020
