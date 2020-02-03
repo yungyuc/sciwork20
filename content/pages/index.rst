@@ -10,14 +10,20 @@ Sciwork 2020 - Welcome
 Science, code, and open source
 ==============================
 
+Update (2/3): Because of the novel coronavirus (2019-nCoV), our venue NCTU will
+delay the classes to 3/2, and we will follow.  We are working on the new date
+(the original date was 22nd February, 2020), and will udpate when it is set.
+If the new time doesn't work for you, we will arrange refund.  Sorry for the
+potential inconvenience.
+
 Update (1/8): Sciwork is open for registration:
 https://sciwork.kktix.cc/events/sciwork2020
 
 Sciwork is a conference for researchers and engineers to share and discuss
 computer code for scientific, numerical, and engineering work.  It will be held
-in Hsinchu on 22nd February 2020.  We believe in the power of openness, and we
-will use open source as a means to advance software development for
-computational sciences.
+in Hsinchu (we are rescheduling due to the novel coronavirus).  We believe in
+the power of openness, and we will use open source as a means to advance
+software development for computational sciences.
 
 Computational sciences are critically important as information technology has
 blended in every aspect of human activities.  Proficiently speaking programming
