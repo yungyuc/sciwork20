@@ -14,3 +14,5 @@ through [the event page](https://sciwork.kktix.cc/events/sciwork2020) to
 replace the name.  Another way is to cancel it directly through kktix.
 Cancellation may incur a process fee.  In either way, please discuss with us if
 you have any question.
+
+The ticket sale will open until March 14th.
