@@ -4,7 +4,7 @@ Category: General
 
 Yesterday, we have finalized the procedure of rebooking the conference venue.
 The new date will be March 21st, 2020.  (Original date was February 22nd.) We
-move the date back in response to [the delay of the
+move the date in response to [the delay of the
 classes](https://www.taiwannews.com.tw/en/news/3869939) that is caused by the
 novel coronavirus (2019-nCoV).
 
