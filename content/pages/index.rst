@@ -10,8 +10,8 @@ Sciwork 2020 - Welcome
 Science, code, and open source
 ==============================
 
-Update (2/14): The conference will be rescheduled to 21st March because of `the
-delay of classes <https://www.taiwannews.com.tw/en/news/3869939>`__.
+Update (3/5): The conference this year is **cancelled** (`announcement
+<{filename}/articles/2003-cancellation.md>`__).
 
 Sciwork is a conference for researchers and engineers to share and discuss
 computer code for scientific, numerical, and engineering work.  It will be held
@@ -51,6 +51,9 @@ Areas of topics
 
 Previous updates
 ================
+
+Update (2/14): The conference will be rescheduled to 21st March because of `the
+delay of classes <https://www.taiwannews.com.tw/en/news/3869939>`__.
 
 Update (2/3): Because of the novel coronavirus (2019-nCoV), our venue NCTU will
 `delay the classes to 3/2 <https://www.taiwannews.com.tw/en/news/3869939>`__,
