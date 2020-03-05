@@ -7,10 +7,10 @@ Sciwork will be canceled this year because of the COVID-19 outbreak.
 We have [rescheduled once]({filename}./2002-new-date.md) because of the
 epidemic.  Since then the situation has become worsened and we are seeing
 rapidly-growing infections in the world.  Although in Taiwan it is relatively
-well-controlled, so far, the found cases are still increasing and it is
-reportedly that we are close to or already in community spread.  After careful
-assessment, we learn that the safety of all participants is of high risk in
-this time, and have to make the hard decision to cancel the conference.
+well-controlled, so far, the found cases are still increasing and we are close
+to or already in community spread.  After careful assessment, we learn that the
+safety of all participants is of high risk in this time, and have to make the
+hard decision to cancel the conference.
 
 Every participant will get full refund.  You do **not** need to cancel on
 KKTIX.  Instead, please send an email to
@@ -20,7 +20,8 @@ information:
 > Subject: [sw20] Refund information for `<your name in KKTIX ticket>`
 >
 >   * Email in your KKTIX ticket
->   * Check-in Serial Code (檢查碼) in your KKTIX ticket
+>   * Check-in Serial Code (檢查碼) in your KKTIX ticket (you should have got
+>     an email from KKTIX for it)
 >   * Account information:
 >     * Bank code (銀行名稱代號)
 >     * Branch code (分行名稱代號)
