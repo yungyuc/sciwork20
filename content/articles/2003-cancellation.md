@@ -13,9 +13,8 @@ safety of all participants is of high risk in this time, and have to make the
 hard decision to cancel the conference.
 
 Every participant will get full refund.  You do **not** need to cancel on
-KKTIX.  Instead, please send an email to
-[contact@sciwork.dev](mailto:contact@sciwork.dev) with the following
-information:
+KKTIX.  Instead, please submit the following information to the
+[form](https://docs.google.com/forms/d/e/1FAIpQLScMhSD_dX2jHP7bPeoxOusJCXKqyF43hsqiFKU6595yXGhE4Q/viewform):
 
 > Subject: [sw20] Refund information for `<your name in KKTIX ticket>`
 >
